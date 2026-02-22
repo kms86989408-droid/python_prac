@@ -1,4 +1,7 @@
-# ======= 변수 =======
+# 나도코딩 
+# https://youtu.be/kWiCuklohdY?si=n7s67g3gv82gSBSG
+
+# ======= 2-4 변수 =======
 # 애완동물을 소개해주세요
 # name = "연탄이"
 # animal = "강아지"
@@ -20,7 +23,7 @@
 
 # print(station +"행 열차가 들어오고있습니다.")
 
-# ======= 연산자 =======
+# ======= 3-1 연산자 =======
 # print(1+1) # 2
 # print(3-2) # 1
 # print(5*2) # 10
@@ -54,7 +57,7 @@
 # print(5 > 4 > 7) # False
 
 
-# =======숫자 처리 함수=======
+# =======3-3 숫자 처리 함수=======
 # print(abs(-5)) # abs절대값 # 5
 # print(pow(4, 2)) # 4^2 = 4*4 = 16
 # print(max(5, 12)) # 최대값 출력 # 12
@@ -67,7 +70,7 @@
 # print(ceil(3.14)) # 소수점 올림 # 4
 # print(sqrt(16)) # 제곱근 # 4
 
-# =======랜덤 함수=======
+# =======3-4 랜덤 함수=======
 # from random import *
 
 # print(random()) # 0.0 이상 1.0 미만의 임의의값 생성
@@ -92,7 +95,7 @@
 # date = (randint(4, 28))
 # print("오프라인 스터디 모임 날짜는 매월 "+str(date)+"일로 선정되었습니다.")
 
-# =======문자열=======
+# =======4-1 문자열=======
 # sentence = '나는 소년입니다.'
 # print(sentence)
 # sentence2 = "파이썬은 쉬워요"
@@ -102,7 +105,7 @@
 # 파이썬은 쉬워요"""
 # print(sentence3)
 
-# =======슬라이싱=======
+# =======4-2 슬라이싱=======
 # jumin = "123456-1234567"
 
 # print("성별 : " +jumin[7])
@@ -114,7 +117,7 @@
 # print("뒤 7자리(뒤에서부터) : "+jumin[-7:]) # 맨뒤에서 7번째부터 끝까지
 
 
-# =======문자열 처리 함수=======
+# =======4-3 문자열 처리 함수=======
 # python = "Python is Amazing"
 # print(python.lower()) # 소문자 변환
 # print(python.upper()) # 대문자 변환
@@ -134,7 +137,7 @@
 # print(python.count("n")) # 'n'이 몇개 있는지
 
 
-# =======문자열 포맷=======
+# =======4-4 문자열 포맷=======
 # print("a" + "b")
 # print("a", "b")
 
@@ -160,7 +163,7 @@
 # print(f"나는 {age}살이며, {color}색을 좋아해요.")
 
 
-# =======탈출 문자=======
+# =======4-5 탈출 문자=======
 # \n : 줄바꿈
 # print("백문이 불여일견\n백견이 불여일타")
 # \"\" 문장 내에서 따옴표
@@ -186,9 +189,11 @@
 # 2. 처음 만나는 점(.) 이후 부분은 제외 -> naver
 # 3. 남은 글자 중 처음 세자리 + 글자 갯수 + 글자 내 'e' 갯수 + "!"로 구성
 
-site = "http://naver.com"
-my_str = site.replace("http://","") # 규칙1
-my_str = my_str[:my_str.index(".")] # 규칙2
+# site = "http://naver.com"
+# my_str = site.replace("http://","") # 규칙1
+# my_str = my_str[:my_str.index(".")] # 규칙2
 # my_str[0:5] -> 0 ~ 5 직전까지
-password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
-print("{0}의 비밀번호는 {1}입니다.".format(site, password))
+# password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
+# print("{0}의 비밀번호는 {1}입니다.".format(site, password))
+
+# ======= 리스트 =======
